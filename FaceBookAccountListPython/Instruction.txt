@@ -1,0 +1,11 @@
+sudo apt-get install firefox
+sudo apt-get install firefox-geckodriver
+got to github.com/mozilla/getodriver/releases 
+searh assets then find your desired version of getodriver an download it or
+wget https://github.com/mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.26.0-linux64.tar.gz
+sudo tar -xvf geckodriver-v0.33.0-linux64.tar.gz
+sudo mv geckodriver /usr/local/bin/
+cd /usr/local/bin/
+sudo chmod +x geckodriver
+
+pip install selenium
