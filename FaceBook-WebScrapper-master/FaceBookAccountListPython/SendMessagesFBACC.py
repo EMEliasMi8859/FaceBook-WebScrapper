@@ -21,8 +21,8 @@ username_field = driver.find_element(By.ID, "email")
 password_field = driver.find_element(By.ID, "pass")
 login_button = driver.find_element(By.NAME, "login")
 print("[!]Initializing variables........")
-username_field.send_keys("Muhammad.Elias.Muhammadi@Gmail.com")
-password_field.send_keys("MuhammadiFb859@")
+username_field.send_keys("*@Gmail.com")
+password_field.send_keys("")
 print("[!]Attempting to login...........")
 login_button.click()
 print("[!]Waiting to Login   ...........")
@@ -64,4 +64,5 @@ for i in range(0,2):
     list1 = ["https://www.facebook.com/Monica.472", "https://www.facebook.com/Afghan.noori.378"]
     SendToReciever(list1[i])
 driver.quit()
+
 
